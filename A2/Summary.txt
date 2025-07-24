@@ -1,0 +1,98 @@
+✅ REZUMAT – Assignment 2 (Nivel Bronze)
+🧱 Structura generală (Layered Architecture)
+Proiectul este organizat în straturi (layere), conform unei arhitecturi MVC simplificate:
+
+data/ – mock data (ex: teams.js)
+
+models/ – clasele definite (ex: F1Driver, Team)
+
+controllers/ – logica aplicației (manipularea datelor și validarea inputurilor)
+
+routes/ – endpoint-urile API (conectează rutele la controllere)
+
+server.js – inițializarea serverului Express
+
+🏎️ Entitățile (Classes + Relationship)
+1. F1Driver
+Proprietăți: id, name, team, age
+
+Implementată ca clasă TypeScript (F1Driver.ts)
+
+Se oferă CRUD complet pentru această entitate
+
+2. Team
+Proprietăți: id, name
+
+Salvate într-un mock (teams.js) pentru testare
+
+Legătura este 1-to-many: o echipă are mai mulți piloți
+
+✅ Cerința "cel puțin două clase în relație one-to-many" este îndeplinită
+
+🔄 Funcționalități CRUD – Backend
+Pentru F1Driver (/api/f1drivers)
+GET /api/f1drivers – listare toți piloții
+
+GET /api/f1drivers/:id – detalii pilot
+
+POST /api/f1drivers – creare pilot
+
+PUT /api/f1drivers/:id – actualizare pilot
+
+DELETE /api/f1drivers/:id – ștergere pilot
+
+Pentru Team (/api/teams)
+GET /api/teams – listare echipe
+
+GET /api/teams/:id – detalii echipă
+
+POST /api/teams – creare echipă
+
+🧠 Validări și tratări de erori
+Toate endpoint-urile efectuează:
+
+verificări de tipuri (string, number)
+
+validări de ID-uri existente
+
+statusuri HTTP corecte (400, 404, 201, 409)
+
+🧪 Persistență
+Momentan, datele sunt păstrate doar în memorie
+
+Opțional: pentru un nivel mai avansat, se poate adăuga salvarea în fișier JSON sau DB reală
+
+💻 Rulare locală (VS Code)
+Backend:
+Navighează în folderul backend/
+
+Rulează:
+
+bash
+Copiază
+Editează
+npm install
+npm start
+Serverul rulează pe: http://localhost:5000
+
+Frontend:
+Navighează în folderul frontend/ sau root dacă ai Vite
+
+Rulează:
+
+bash
+Copiază
+Editează
+npm install
+npm run dev
+Frontendul rulează pe: http://localhost:5173
+
+🟠 Ce ai realizat deja pentru Bronze:
+Cerință	Status
+Două clase în relație one-to-many (ORM/memorie)	✅
+CRUD complet pe prima entitate (F1Driver)	✅
+CRUD minim (GET + POST) pe a doua (Team)	✅
+Arhitectură pe layere (controller, routes)	✅
+Server Express + API funcțional	✅
+Frontend conectat la backend	✅
+Funcționalitate completă demonstrabilă	✅

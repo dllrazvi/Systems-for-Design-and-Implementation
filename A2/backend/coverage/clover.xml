@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1744368948959" clover="3.2.0">
+  <project timestamp="1744368948959" name="All files">
+    <metrics statements="41" coveredstatements="41" conditionals="38" coveredconditionals="35" methods="9" coveredmethods="9" elements="88" coveredelements="85" complexity="0" loc="41" ncloc="41" packages="2" files="2" classes="2"/>
+    <package name="controllers">
+      <metrics statements="35" coveredstatements="35" conditionals="38" coveredconditionals="35" methods="9" coveredmethods="9"/>
+      <file name="f1DriverController.js" path="C:\Users\rzvbo\OneDrive\Desktop\UBB\anul 2 - sem 2\MPP\A2\A2_MPP\backend\controllers\f1DriverController.js">
+        <metrics statements="35" coveredstatements="35" conditionals="38" coveredconditionals="35" methods="9" coveredmethods="9"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="cond" truecount="3" falsecount="1"/>
+        <line num="18" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="20" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="39" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="f1DriverRoutes.js" path="C:\Users\rzvbo\OneDrive\Desktop\UBB\anul 2 - sem 2\MPP\A2\A2_MPP\backend\routes\f1DriverRoutes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
